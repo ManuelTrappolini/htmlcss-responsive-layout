@@ -1,0 +1,62 @@
+/* #region common */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.debug *{
+    border: 1px dashed;
+}
+
+main{
+    background-color: #F6F5F3;
+}
+
+/* #endregion common */
+
+/* #region utilities */
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+[class^=col-]{
+    padding: 0.5 rem;
+}
+
+.col-12{
+    width: 100%;
+}
+
+.col-6{
+    width: 50%;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -1rem;
+}
+/* #endregion utilities */
+
+/* #region Spacing */
+
+.py-05{
+    padding-top: 1 rem;
+    padding-bottom: 1 rem;
+}
+
+/* #endregion Spacing */
+
+/* #region header */
+header{
+    h1{
+        font-family: "Nerko One", cursive;
+        color: #FF9614;
+        text-align: center;
+        font-weight: 100;
+    }
+}
+/* #endregion header */
