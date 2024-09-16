@@ -454,6 +454,13 @@ footer{
     .justify-content-end{
         justify-content: flex-end;
     }
+
+    footer{
+        .row{
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+        }
+    }
     
 }
 /* #endregion breakpoint media query min-width992px */
