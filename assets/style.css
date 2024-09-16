@@ -350,6 +350,10 @@ footer{
     .col-md-12{
         width: 100%;
     }
+
+    .col-md-11{
+        width: calc(100%/12*11);
+    }
     
     .col-md-10{
         width: calc(100%/12*10);
@@ -408,7 +412,7 @@ footer{
         .btn-social-md {
             border: 1px solid white;
             background-color: white;
-            padding: 10px 30px;
+            padding: 10px 27px;
             border-radius: 20px;
         }
 
@@ -417,6 +421,38 @@ footer{
             color: black;
             padding-left: 10px;
         }
+    }
+
+    .container-md{
+        width: 100%;
+        margin: auto;
+    }
+
+    .d-block-md{
+        display: block;
+        
+    }
+    
+    .text-align-left-md{
+        text-align: left;
+        margin-left: 3rem;
+    }
+
+    .text-align-right-md{
+        text-align: end;
+        margin-left: 3rem;
+    }
+
+    .order1{
+        order: 1;
+
+    }
+    .order2{
+        order: 2;
+    }
+
+    .justify-content-end{
+        justify-content: flex-end;
     }
     
 }
