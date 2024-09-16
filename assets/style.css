@@ -343,3 +343,62 @@ footer{
 
 
 /* #endregion breakpoint media query min-width768px */
+
+/* #region breakpoint media query min-width992px */
+@media screen and (min-width: 992px){
+
+    .col-md-12{
+        width: 100%;
+    }
+    
+    .col-md-10{
+        width: calc(100%/12*10);
+    }
+    
+    .col-md-8{
+        width: calc(100%/12*8);
+    }
+    
+    .col-md-6{
+        width: 50%;
+    }
+    
+    .col-md-4{
+        width: calc(100%/12*4);
+    }
+    
+    .col-md-2{
+        width: calc(100%/12*2);
+    }
+
+    .d-inline-block-md{
+        display: inline-block;
+    }
+
+    .d-block-md{
+        display: block;
+    }
+
+    header{
+        height: 50px;
+        h1{
+            font-size: 30px;
+            text-align: start;
+            margin-left: 10px;
+        }
+    }
+    
+    .float-left-md{
+        float: left;
+    }
+
+    .pr-1-md{
+        padding-right: 1rem;
+    }
+
+    .flex-d-col-md{
+        flex-direction: column;
+        display: flex;
+    }
+}
+/* #endregion breakpoint media query min-width992px */
