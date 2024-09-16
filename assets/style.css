@@ -180,6 +180,8 @@ main{
 /* #region header */
 header{
     height: 80px;
+    justify-content: center;
+    align-items: center;
 
     h1{
         font-family: "Nerko One", cursive;
@@ -298,6 +300,7 @@ footer{
 
     header{
         height: 50px;
+        justify-content: flex-start;
         h1{
             font-size: 30px;
             text-align: start;
@@ -386,7 +389,7 @@ footer{
     header{
         height: 50px;
         h1{
-            font-size: 30px;
+            font-size: 40px;
             text-align: start;
             margin-left: 10px;
         }
@@ -409,6 +412,15 @@ footer{
         height: 100%;
     }
     main{
+
+        .font-size-md-35{
+            font-size: 30px;
+        }
+
+        .font-size-md-30{
+            font-size: 20px;
+        }
+
         .btn-social-md {
             border: 1px solid white;
             background-color: white;
