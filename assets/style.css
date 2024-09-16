@@ -222,7 +222,7 @@ header{
     color: #DE79B5;
 }
 
-.fa-spotify, .fa-youtube{
+.fa-pinterest, .fa-youtube{
     color: #E6222E;
 }
 
@@ -400,5 +400,24 @@ footer{
         flex-direction: column;
         display: flex;
     }
+
+    .height100-md{
+        height: 100%;
+    }
+    main{
+        .btn-social-md {
+            border: 1px solid white;
+            background-color: white;
+            padding: 10px 30px;
+            border-radius: 20px;
+        }
+
+        .d-inline-block-md{
+            display: inline-block;
+            color: black;
+            padding-left: 10px;
+        }
+    }
+    
 }
 /* #endregion breakpoint media query min-width992px */
