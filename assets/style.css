@@ -10,7 +10,7 @@
 }
 
 main{
-    background-color: #F6F5F3;
+    background-color: #d8d7d4;
 }
 
 /* #endregion common */
@@ -48,6 +48,10 @@ main{
     font-size: 0.8rem;
 }
 
+.font-s1{
+    font-size: 0.6rem;
+}
+
 .btn{
     border: 1px solid none;
     background-color: #F7972E;
@@ -56,7 +60,22 @@ main{
     color: white;
     text-decoration: none;
 }
+
+.bg-white{
+    background-color: #F6F5F3;
+}
+
 /* #endregion utilities */
+
+/* #region display flex */
+.d-flex{
+    display: flex;
+}
+
+.space-evenly{
+    justify-content: space-evenly;
+}
+/* #endregion display flex */
 
 /* #region Spacing */
 
@@ -72,6 +91,10 @@ main{
 
 .pb-1{
     padding-bottom: 0.5rem;
+}
+
+.pb-2{
+    padding-bottom: 1rem;
 }
 
 .pl-1{
@@ -93,4 +116,36 @@ header{
 .fa-star{
     color: #F7972E;
 }
+
+.list-unstylied{
+        list-style: none;
+        line-height: 20px;
+    
+}
+
 /* #endregion header */
+
+/* #region main */
+.card{
+    background-color: white;
+    border: 1px solid transparent;
+}
+
+.fa-facebook{
+    color: #1A77F3;
+}
+
+.fa-twitter{
+    color: #009EFF;
+}
+
+.fa-instagram{
+    color: #DE79B5;
+}
+
+.fa-spotify, .fa-youtube{
+    color: #E6222E;
+}
+
+
+/* #endregion main */
