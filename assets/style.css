@@ -162,11 +162,14 @@ main{
 
 /* #region header */
 header{
+    height: 80px;
+
     h1{
         font-family: "Nerko One", cursive;
         color: #FF9614;
         text-align: center;
         font-weight: 100;
+        font-size: 50px;
     }
 }
 
@@ -239,3 +242,27 @@ footer{
 }
 
 /* #endregion footer */
+
+/* #region breakpoint media query min-width768px */
+
+@media screen and (min-width: 768px){
+
+    .d-inline-block-sm{
+        display: inline-block;
+    }
+
+    .d-block-sm{
+        display: block;
+    }
+    header{
+        height: 50px;
+        h1{
+            font-size: 30px;
+            text-align: start;
+            margin-left: 10px;
+        }
+    }
+
+}
+
+/* #endregion breakpoint media query min-width768px */
