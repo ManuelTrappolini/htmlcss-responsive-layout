@@ -189,6 +189,7 @@ header{
         text-align: center;
         font-weight: 100;
         font-size: 50px;
+        text-shadow: 1px 1px grey;
     }
 }
 
@@ -448,6 +449,12 @@ footer{
         margin: auto;
     }
 
+    .container-md-xs{
+        width: 70%;
+        margin: auto;
+    }
+
+   
     .d-block-md{
         display: block;
         
